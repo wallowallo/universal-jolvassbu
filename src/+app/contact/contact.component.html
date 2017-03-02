@@ -1,0 +1,39 @@
+<h1 class="cabinHeader">Kontakt Oss</h1>
+
+<div class="imageCards">
+  <md-card class="cabinPrice">
+    <img md-card-image src="assets/images/contact1.jpg" alt="Kontakt oss gjerne">
+    <md-card-content>
+      <p>Gunn Marte og Egil ynskjer velkomen til eit hyggeleg opphald på Jølvassbu!</p>
+    </md-card-content>
+  </md-card>
+
+  <md-card class="cabinPrice">
+    <md-card-content>
+         <h3> Nå oss</h3>
+        <p> Jølvassbu Camping, N-6847 VASSENDEN</p>
+        <p> Mobil: + 47 92 06 22 03/+47 92 22 36 98</p>
+        <p> Facebook: <a href="https://www.facebook.com/j%C3%B8lvassbu-camping-110500682302926/" target="_blank">Jølvassbu Camping</a></p>
+        <p> GPS: N 61.29.47 E 06.06.75</p>
+        <p> E-post: <a href="mailto:post@jolvassbu.no">post@jolvassbu.no</a>. Eller bruk skjemaet nedenfor.</p>
+    </md-card-content>
+  </md-card>
+</div>
+
+<div class="mailForm">
+  <form #sendMailForm="ngForm" (ngSubmit)="send(sendMailForm)">
+    <h2 class="mailHeader">
+    <i class="material-icons">mail_outline</i>
+    Send oss en Email:
+  </h2>
+    <md-input-container class="subject">
+      <input md-input type="text" name="subject" placeholder="Emne" ngModel required>
+    </md-input-container>
+    <md-input-container class="content">
+      <textarea md-input name="message" rows="15" cols="100" placeholder="Email tekst" ngModel required></textarea>
+    </md-input-container>
+    <div class="sendButtonn">
+      <button md-raised-button class="sendButton" type="submit">Send</button>
+    </div>
+  </form>
+</div>
