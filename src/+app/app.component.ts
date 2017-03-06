@@ -1,5 +1,4 @@
 import { Component, Directive, ElementRef, Renderer, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
-import { MdMenuTrigger } from '@angular/material/menu/menu-trigger';
 
 //
 /////////////////////////
@@ -27,7 +26,6 @@ export class XLargeDirective {
   * {
     padding:0;
     margin:0;
-    font-family: 'Droid Sans', sans-serif;
   }
 
   #universal {
@@ -41,7 +39,7 @@ export class XLargeDirective {
     right: 0;
     left: 0;
     z-index: 999;
-    
+
     display: flex;
     background: LightSkyBlue;
     opacity: 0.8;
@@ -91,7 +89,7 @@ export class XLargeDirective {
     text-align: center;
 
     background-image: url('./assets/images/bakgrunn.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     background-attatchment: fixed;
   }
@@ -159,15 +157,24 @@ export class XLargeDirective {
       <div class="dropdown">
         <button class="dropbtn">Overnatting</button>
         <div class="dropdown-content">
-          <a routerLinkActive="router-link-active" routerLink="cabins">Cabins</a>
+          <a routerLinkActive="router-link-active" routerLink="cabins">Hytter</a>
+          <a routerLinkActive="router-link-active" routerLink="caravan">Bobil & Telt</a>
+          <a routerLinkActive="router-link-active" routerLink="facilities">Servicebygg</a>
         </div>
       </div>
       <div class="dropdown">
         <button class="dropbtn">Aktiviteter</button>
         <div class="dropdown-content">
-          <a routerLinkActive="router-link-active" routerLink="about">About</a>
-          <a routerLinkActive="router-link-active" routerLink="todo">Todo</a>
-          <a routerLinkActive="router-link-active" routerLink="lazy">Lazy</a>
+          <a routerLinkActive="router-link-active" routerLink="summer">Sommer</a>
+          <a routerLinkActive="router-link-active" routerLink="winter">Vinter</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Info</button>
+        <div class="dropdown-content">
+          <a routerLinkActive="router-link-active" routerLink="jolster">Jølster</a>
+          <a routerLinkActive="router-link-active" routerLink="map">Kart</a>
+          <a routerLinkActive="router-link-active" routerLink="contact">Kontakt Oss</a>
         </div>
       </div>
     </nav>
