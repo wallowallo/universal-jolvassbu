@@ -56,10 +56,6 @@ export class XLargeDirective {
     display:inline-block;
   }
 
-  nav a:hover {
-    background: DodgerBlue;
-  }
-
   .hero-universal {
     min-height:500px;
     display:block;
@@ -75,8 +71,8 @@ export class XLargeDirective {
   }
 
   .logo {
-      width: 60px;
-      height: 20px;
+      width: 90px;
+      height: 30px;
     }
 
   .header {
