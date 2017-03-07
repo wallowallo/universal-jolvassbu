@@ -77,7 +77,7 @@ export class XLargeDirective {
 
   .header {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 
     display: flex;
     align-items: center;
