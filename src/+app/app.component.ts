@@ -87,6 +87,7 @@ export class XLargeDirective {
 
     background-image: url('./assets/images/bakgrunn.jpg');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-attatchment: fixed;
   }
