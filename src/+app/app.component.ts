@@ -41,6 +41,7 @@ export class XLargeDirective {
     z-index: 999;
 
     display: flex;
+    flex-wrap: wrap;
     background: LightSkyBlue;
     opacity: 0.8;
     min-height:40px;
