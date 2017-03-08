@@ -1,9 +1,9 @@
 import { Component, Directive, ElementRef, Renderer, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
-
-//
+declare var process: any;
 /////////////////////////
 // ** Example Directive
 // Notice we don't touch the Element directly
+const ApiKey = process.env.JolvassbuApiKey;
 
 @Directive({
   selector: '[xLarge]'
@@ -175,7 +175,6 @@ export class XLargeDirective {
       </div>
     </nav>
     <div class="header">
-      <h3 id="universal">Jølvassbu Camping</h3>
     </div>
     <div class="hero-universal">
         <main>
@@ -184,4 +183,5 @@ export class XLargeDirective {
     </div>
   `
 })
-export class AppComponent {}
+export class AppComponent {
+}

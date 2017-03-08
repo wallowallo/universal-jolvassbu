@@ -1,1 +1,6 @@
 /*@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';*/
+#map {
+  width: 70%;
+  height: 400px;
+  margin: 0 auto;
+}
