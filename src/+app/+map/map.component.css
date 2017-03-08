@@ -1,6 +1,5 @@
 /*@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';*/
-#map {
-  width: 70%;
-  height: 400px;
+.googleMap {
+  width:80%;
   margin: 0 auto;
 }

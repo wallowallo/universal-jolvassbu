@@ -1,9 +1,7 @@
 import { Component, Directive, ElementRef, Renderer, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
-declare var process: any;
 /////////////////////////
 // ** Example Directive
 // Notice we don't touch the Element directly
-const ApiKey = process.env.JolvassbuApiKey;
 
 @Directive({
   selector: '[xLarge]'
