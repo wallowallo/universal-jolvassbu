@@ -98,9 +98,16 @@ export class XLargeDirective {
   }
 
   footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+
     text-align: center;
     background-color: grey;  
     padding: 20px;
+    opacity: 0.95;
   }
 
   footer a {
