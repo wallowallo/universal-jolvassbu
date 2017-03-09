@@ -97,6 +97,16 @@ export class XLargeDirective {
     color: #fff;
   }
 
+  footer {
+    text-align: center;
+    background-color: grey;  
+    padding: 20px;
+  }
+
+  footer a {
+    color: white;  
+  }
+
   /* Dropdown Button */
 .dropbtn {
     background-color: LightSkyBlue;
@@ -181,6 +191,9 @@ export class XLargeDirective {
           <router-outlet></router-outlet>
         </main>
     </div>
+    <footer>
+        <h6>© Jølvassbu Camping, N - 6847 VASSENDEN, MOBIL + 47 92 06 22 03, E-post: <a href="mailto:post@jolvassbu.no">post@jolvassbu.no</a></h6>
+    </footer>
   `
 })
 export class AppComponent {
